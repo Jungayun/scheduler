@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkForDelete"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/dday"
+        android:layout_height="match_parent"
+        android:layout_width="100dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_alignBaseline="@+id/checkForDelete"
+        android:layout_alignBottom="@+id/checkForDelete"
+        android:layout_toRightOf="@+id/checkForDelete"
+        android:layout_toEndOf="@+id/checkForDelete" />
+
+    <TextView
+        android:text="TextView"
+        android:textSize="25dp"
+        android:id="@+id/ddayname"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_alignBaseline="@+id/dday"
+        android:layout_alignBottom="@+id/dday"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
